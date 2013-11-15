@@ -5,7 +5,8 @@
   "keywords": [
     "yeoman-generator",
     "scaffold",
-    "node"
+    "node",
+    "mocha"
   ],
   "homepage": "https://github.com/MrDHat/generator-node-mocha",
   "bugs": "https://github.com/MrDHat/generator-node-mocha/issues",

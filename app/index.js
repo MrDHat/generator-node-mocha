@@ -4,7 +4,7 @@ var util = require('util');
 var path = require('path');
 var yeoman = require('yeoman-generator');
 
-var NodeGenerator = module.exports = function NodeGenerator(args, options) {
+var NodeGeneratorMocha = module.exports = function NodeGeneratorMocha(args, options) {
   yeoman.generators.Base.apply(this, arguments);
 
   this.on('end', function () {
@@ -16,9 +16,9 @@ var NodeGenerator = module.exports = function NodeGenerator(args, options) {
 
   this.pkg = JSON.parse(this.readFileAsString(path.join(__dirname, '../package.json')));
 };
-util.inherits(NodeGenerator, yeoman.generators.NamedBase);
+util.inherits(NodeGeneratorMocha, yeoman.generators.NamedBase);
 
-NodeGenerator.prototype.askFor = function askFor() {
+NodeGeneratorMocha.prototype.askFor = function askFor() {
   var cb = this.async();
 
   console.log(
@@ -72,17 +72,17 @@ NodeGenerator.prototype.askFor = function askFor() {
   }.bind(this));
 };
 
-NodeGenerator.prototype.lib = function lib() {
+NodeGeneratorMocha.prototype.lib = function lib() {
   this.mkdir('lib');
   this.template('lib/name.js', 'lib/' + this.slugname + '.js');
 };
 
-NodeGenerator.prototype.test = function test() {
+NodeGeneratorMocha.prototype.test = function test() {
   this.mkdir('test');
   this.template('test/name_test.js', 'test/' + this.slugname + '_test.js');
 };
 
-NodeGenerator.prototype.projectfiles = function projectfiles() {
+NodeGeneratorMocha.prototype.projectfiles = function projectfiles() {
   this.copy('jshintrc', '.jshintrc');
   this.copy('gitignore', '.gitignore');
   this.copy('travis.yml', '.travis.yml');
