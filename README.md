@@ -1,10 +1,11 @@
 # Node-Mocha Generator [![Build Status](https://secure.travis-ci.org/MrDHat/generator-node-mocha.png?branch=master)](https://travis-ci.org/MrDHat/generator-node-mocha)
 
-> Create a node.js module with [Yeoman][], including Mocha unit tests.
+> Create a node.js module with [Yeoman](http://yeoman.io/), including Mocha unit tests.
 
 This generator is a fork of [generator-node](https://github.com/yeoman/generator-node) by the Yeoman team supporting Mocha unit tests instead of NodeUnit.
 
 Author: [Akshay Katyal](https://github.com/MrDHat)
+
 Original Author: [Addy Osmani](https://github.com/addyosmani)
 
 ## Installation
