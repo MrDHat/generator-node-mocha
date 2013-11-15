@@ -1,19 +1,13 @@
-# Node Generator [![Build Status](https://secure.travis-ci.org/yeoman/generator-node.png?branch=master)](https://travis-ci.org/yeoman/generator-node)
+# Node-Mocha Generator [![Build Status](https://secure.travis-ci.org/MrDHat/generator-node-mocha.png?branch=master)](https://travis-ci.org/MrDHat/generator-node-mocha)
 
-> Create a node.js module with [Yeoman][], including nodeunit unit tests.
+> Create a node.js module with [Yeoman][], including Mocha unit tests.
 
-This generator is based of
-[grunt-init-node](https://github.com/gruntjs/grunt-init-node), authored by the
-magnificient GruntJS team.
-
-Maintained by Kyle Robinson Young, Addy Osmani and Stephen Sawchuck.
-
-[Yeoman]: http://yeoman.io/
+This generator is a fork of [generator-node](https://github.com/yeoman/generator-node) by the Yeoman team supporting Mocha unit tests instead of NodeUnit.
 
 
 ## Installation
 
-Install the generator by running: `npm install -g generator-node`.
+Install the generator by running: `npm install -g generator-node-mocha`.
 
 
 ## Usage
@@ -21,7 +15,7 @@ Install the generator by running: `npm install -g generator-node`.
 At the command-line, cd into an empty directory, run this command and follow the prompts.
 
 ```
-yo node
+yo node-mocha
 ```
 
 _Note that this template will generate files in the current directory, so be sure to change to a new directory first if you don't want to overwrite existing files._
