@@ -4,9 +4,10 @@
 
 This generator is a fork of [generator-node](https://github.com/yeoman/generator-node) by the Yeoman team supporting Mocha unit tests instead of NodeUnit.
 
-Author: [Akshay Katyal](https://github.com/MrDHat)
-
 Original Author: [Addy Osmani](https://github.com/addyosmani)
+
+Author: [@MrDHat](https://github.com/MrDHat) with generous contributions from [@thanpolas](https://github.com/thanpolas)
+
 
 ## Installation
 
