@@ -20,7 +20,8 @@ _(Coming soon)_
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
 ## Release History
-_(Nothing yet)_
-
+- **v0.0.1**, *TBD*
+    - Big Bang
+    
 ## License
 Copyright (c) <%= currentYear %> <%= props.authorName %>. Licensed under the <%= props.license %> license.
