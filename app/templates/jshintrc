@@ -3,7 +3,7 @@
  *
  * Forked from Airbnb JSHint settings.
  *
- * @version 0.4.0
+ * @version 0.4.0s
  * @see http://www.jshint.com/docs/
  * @see https://github.com/airbnb/javascript
  */
@@ -21,16 +21,6 @@
 
   // Define globals exposed by Node.js.
   "node": true,
-
-  /*
-   * TABS AND QUOTES
-   * ==================
-   */
-  // Enforce tab width of 2 spaces.
-  "indent": 2,
-
-  // Enforce use of single quotation marks for strings.
-  "quotmark": "single",
 
   /*
    * ENFORCING OPTIONS
@@ -55,10 +45,6 @@
   // assignments in cases where comparisons are expected
   "boss": true,
 
-  // Force all variable names to use either camelCase style
-  // or UPPER_CASE with underscores.
-  "camelcase": true,
-
   // Prohibit use of == and != in favor of === and !==.
   "eqeqeq": true,
 
@@ -79,10 +65,6 @@
 
   // Warn when variables are defined but never used.
   "unused": true,
-
-  // do not complain for lack of 'use strict';
-  "globalstrict": false,
-  "strict": false,
 
   // suppress object dot notation warnings, we know what we're doing
   "sub": true,
