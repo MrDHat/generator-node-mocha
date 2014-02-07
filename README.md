@@ -8,6 +8,7 @@ Original Author: [Addy Osmani](https://github.com/addyosmani)
 
 Author: [@MrDHat](https://github.com/MrDHat) with generous contributions from [@thanpolas](https://github.com/thanpolas)
 
+[![NPM](https://nodei.co/npm/generator-node-mocha.png?downloads=true)](https://nodei.co/npm/generator-node-mocha/)
 
 ## Installation
 
