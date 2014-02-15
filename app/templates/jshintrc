@@ -74,16 +74,16 @@
    * ================
    *
    */
-  "predef": [
+  "globals": {
     /* MOCHA */
     "suite": false,
     "test": false,
+    "setup": false,
     "before": false,
     "beforeEach": false,
     "after": false,
-    "afterEach": false
-    "setup",
-    "teardown",
-    "assert"
-  ]
+    "afterEach": false,
+    "teardown": false,
+    "assert": false
+  }
 }
