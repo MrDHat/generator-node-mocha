@@ -1,4 +1,4 @@
-# Node-Mocha Generator [![Build Status](https://secure.travis-ci.org/MrDHat/generator-node-mocha.png?branch=master)](https://travis-ci.org/MrDHat/generator-node-mocha)
+# Node-Mocha Generator [![Build Status](https://secure.travis-ci.org/MrDHat/generator-node-mocha.png?branch=master)](https://travis-ci.org/MrDHat/generator-node-mocha) [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/MrDHat/generator-node-mocha/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
 > Create a node.js module with [Yeoman](http://yeoman.io/), including Mocha unit tests.
 
