@@ -29,3 +29,7 @@ _Note that this template will generate files in the current directory, so be sur
 ## License
 
 [MIT License](http://en.wikipedia.org/wiki/MIT_License)
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/MrDHat/generator-node-mocha/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
